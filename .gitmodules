@@ -2,6 +2,10 @@
 	path = extensions/AbuseFilter
 	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/AbuseFilter
 	branch = REL1_39
+[submodule "extensions/Arrays"]
+	path = extensions/Arrays
+	url = https://github.com/wikimedia/mediawiki-extensions-Arrays
+	branch = REL1_39
 [submodule "extensions/CategoryTree"]
 	path = extensions/CategoryTree
 	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/CategoryTree
@@ -22,6 +26,22 @@
 	path = extensions/ConfirmEdit
 	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/ConfirmEdit
 	branch = REL1_39
+[submodule "extensions/CheckUser"]
+	path = extensions/CheckUser
+	url = https://github.com/wikimedia/mediawiki-extensions-CheckUser
+	branch = REL1_39
+[submodule "extensions/Disambiguator"]
+	path = extensions/Disambiguator
+	url = https://github.com/wikimedia/mediawiki-extensions-Disambiguator
+	branch = REL1_39
+[submodule "extensions/DismissableSiteNotice"]
+	path = extensions/DismissableSiteNotice
+	url = https://github.com/wikimedia/mediawiki-extensions-DismissableSiteNotice
+	branch = REL1_39
+[submodule "extensions/DPLForum"]
+	path = extensions/DPLForum
+	url = https://github.com/wikimedia/mediawiki-extensions-DPLForum
+	branch = REL1_39
 [submodule "extensions/Gadgets"]
 	path = extensions/Gadgets
 	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Gadgets
@@ -38,6 +58,14 @@
 	path = extensions/Interwiki
 	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Interwiki
 	branch = REL1_39
+[submodule "extensions/ImageMap"]
+	path = extensions/ImageMap
+	url = https://github.com/wikimedia/mediawiki-extensions-Imagemap
+	branch = REL1_39
+[submodule "extensions/Loops"]
+	path = extensions/Loops
+	url = https://github.com/wikimedia/mediawiki-extensions-Loops
+	branch = REL1_39
 [submodule "extensions/Math"]
 	path = extensions/Math
 	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Math
@@ -46,6 +74,10 @@
 	path = extensions/MultimediaViewer
 	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/MultimediaViewer
 	branch = REL1_39
+[submodule "extensions/MsUpload"]
+	path = extensions/MsUpload
+	url = https://github.com/wikimedia/mediawiki-extensions-MsUpload
+	branch = REL1_39
 [submodule "extensions/Nuke"]
 	path = extensions/Nuke
 	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Nuke
@@ -53,6 +85,10 @@
 [submodule "extensions/OATHAuth"]
 	path = extensions/OATHAuth
 	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/OATHAuth
+	branch = REL1_39
+[submodule "extensions/PageForms"]
+	path = extensions/PageForms
+	url = https://github.com/wikimedia/mediawiki-extensions-PageForms
 	branch = REL1_39
 [submodule "extensions/PageImages"]
 	path = extensions/PageImages
@@ -70,6 +106,10 @@
 	path = extensions/Poem
 	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Poem
 	branch = REL1_39
+[submodule "extensions/PortableInfobox"]
+	path = extensions/PortableInfobox
+	url = https://github.com/Universal-Omega/PortableInfobox
+	branch = master
 [submodule "extensions/Renameuser"]
 	path = extensions/Renameuser
 	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Renameuser
@@ -94,13 +134,33 @@
 	path = extensions/SyntaxHighlight_GeSHi
 	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/SyntaxHighlight_GeSHi
 	branch = REL1_39
+[submodule "extensions/TabberNeue"]
+	path = extensions/TabberNeue
+	url = https://github.com/StarCitizenTools/mediawiki-extensions-TabberNeue
+	branch = main
 [submodule "extensions/TemplateData"]
 	path = extensions/TemplateData
 	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/TemplateData
 	branch = REL1_39
+[submodule "extensions/TemplateWizard"]
+	path = extensions/TemplateWizard
+	url = https://github.com/wikimedia/mediawiki-extensions-TemplateWizard
+	branch = REL1_39
+[submodule "extensions/TemplateStyles"]
+	path = extensions/TemplateStyles
+	url = https://github.com/wikimedia/mediawiki-extensions-TemplateStyles
+	branch = REL1_39
 [submodule "extensions/TextExtracts"]
 	path = extensions/TextExtracts
 	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/TextExtracts
+	branch = REL1_39
+[submodule "extensions/Timeline"]
+	path = extensions/Timeline
+	url = https://github.com/wikimedia/mediawiki-extensions-Timeline
+	branch = REL1_39
+[submodule "extensions/TitleBlacklist"]
+	path = extensions/TitleBlacklist
+	url = https://github.com/wikimedia/mediawiki-extensions-TitleBlacklist
 	branch = REL1_39
 [submodule "extensions/TitleBlacklist"]
 	path = extensions/TitleBlacklist
@@ -113,6 +173,10 @@
 [submodule "extensions/WikiEditor"]
 	path = extensions/WikiEditor
 	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/WikiEditor
+	branch = REL1_39
+[submodule "skins/Cosmos"]
+	path = skins/Cosmos
+	url = https://github.com/wikimedia/mediawiki-skins-Cosmos
 	branch = REL1_39
 [submodule "skins/MinervaNeue"]
 	path = skins/MinervaNeue
@@ -130,6 +194,14 @@
 	path = skins/Vector
 	url = https://gerrit.wikimedia.org/r/mediawiki/skins/Vector
 	branch = REL1_39
+[submodule "extensions/Variables"]
+	path = extensions/Variables
+	url = https://github.com/wikimedia/mediawiki-extensions-Variables
+	branch = REL1_39
+[submodule "extensions/VariablesLua"]
+	path = extensions/VariablesLua
+	url = https://github.com/Liquipedia/VariablesLua
+	branch = master
 [submodule "vendor"]
 	path = vendor
 	url = https://gerrit.wikimedia.org/r/mediawiki/vendor
