@@ -71,12 +71,6 @@ $wgGroupPermissions["user"]["upload"] = false;
 
 $wgFileExtensions = [ '.webp', '.png', '.apng', '.gif', '.JPG', '.ico', '.svg', '.ogg', '.pdf',  '.jpeg', '.jpg', '.jpe', '.jps', '.ogx', '.ogg', '.ogm', '.ogv', '.oga', '.spx', '.opus'];
 
-# wfLoadExtension( "MigrateUserAccount" );
-$wgMUALogToWiki = true;
-$wgMUARemoteWikiContentPath = "https://.fandom.com/wiki/";
-$wgMUARemoteWikiAPI = "https://.fandom.com/api.php";
-$wgMUATokenSecret = "";
-
 wfLoadSkin( 'Vector' );
 wfLoadSkin( 'Cosmos' );
 wfLoadSkin( 'Citizen' );
@@ -112,19 +106,14 @@ $wgExtraNamespaces[117] = "Transmat_talk";
 $wgExtraNamespaces[119] = "Thread_talk";
 $wgExtraNamespaces[120] = "Guide";
 $wgExtraNamespaces[121] = "Guide_talk";
-$wgExtraNamespaces[302] = "Property";
-$wgExtraNamespaces[303] = "Property_talk";
 $wgExtraNamespaces[306] = "Form";
 $wgExtraNamespaces[307] = "Form_talk";
 $wgExtraNamespaces[308] = "Concept";
 $wgExtraNamespaces[309] = "Concept_talk";
-$wgExtraNamespaces[312] = "smw/schema";
-$wgExtraNamespaces[313] = "smw/schema_talk";
 $wgExtraNamespaces[314] = "Rule";
 $wgExtraNamespaces[315] = "Rule_talk";
-$wgExtraNamespaces[502] = "Blog";
-$wgExtraNamespaces[828] = "Module";
-$wgExtraNamespaces[829] = "Module_talk";
+$wgExtraNamespaces[3000] = "Video"
+$wgExtraNamespaces[3001] = "Video_talk"
 
 # Content namespaces
 $wgContentNamespaces = array_merge(
