@@ -47,12 +47,6 @@ $wgAuthenticationTokenVersion = "1";
 ## be publicly accessible from the web.
 #$wgCacheDirectory = "$IP/cache";
 
-$wgSecretKey = "00040ed2268b754f1bb5958d2c1a534c3084507eb5d94945b7ddff51869ac0b3";
-
-# Site upgrade key. Must be set to a string (default provided) to turn on the
-# web installer while LocalSettings.php is in place
-$wgUpgradeKey = "f87da4fce13d2870";
-
 ## For attaching licensing metadata to pages, and displaying an
 ## appropriate copyright notice / icon. GNU Free Documentation
 ## License and Creative Commons licenses are supported so far.
